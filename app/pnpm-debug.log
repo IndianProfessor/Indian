@@ -1,0 +1,82 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        @discordjs/opus: "^0.3.2"
+        akaneko: "^3.3.0"
+        ascii-table: "^0.0.9"
+        discord.js: "^12.3.1"
+        dotenv: "^8.2.0"
+        express: "^4.17.1"
+        figlet: "^1.5.0"
+        fs: "^0.0.2"
+        got: "^11.7.0"
+        imageapi.js: "^1.0.17"
+        imdb-api: "^4.2.0"
+        mathjs: "^7.2.0"
+        moment: "^2.28.0"
+        mongoose: "^5.10.7"
+        ms: "^2.1.2"
+        node-opus: "^0.3.3"
+        node-superfetch: "^0.1.10"
+        novelcovid: "^3.0.0"
+        opusscript: "^0.0.7"
+        os: "^0.1.1"
+        path: "^0.12.7"
+        quick.db: "^7.1.2"
+        request: "^2.88.2"
+        request-promise-native: "^1.0.9"
+        simple-youtube-api: "^5.2.1"
+        something-random-on-discord: "^0.0.1"
+        twemoji-parser: "^13.0.0"
+        weather-js: "^2.0.0"
+        ytdl-core: "^3.2.2"
+        ffmpeg: "^0.0.4"
+        discord.js-commando: "^0.10.0"
+        tempy: "^0.7.0"
+        qrcode: "^1.4.4"
+        node-fetch: "^2.6.1"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "## [Indian V2](https://bit.ly/indian-v2)"
+      readmeFilename: "README.md"
+      gitHead: "456d54ede7ed3fd66d207923cd32c67e29302c7f"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving @discordjs/opus that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -13
+      code: "EACCES"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/d9f2464c-bf44-4d3e-aa4e-9dbf8a7ffe38/node_modules/@discordjs/opus"
+      dest: "/rbd/pnpm-volume/d9f2464c-bf44-4d3e-aa4e-9dbf8a7ffe38/node_modules/.ignored/@discordjs/opus"
+    err: 
+      name: "Error"
+      message: "EACCES: permission denied, rename '/rbd/pnpm-volume/d9f2464c-bf44-4d3e-aa4e-9dbf8a7ffe38/node_modules/@discordjs/opus' -> '/rbd/pnpm-volume/d9f2464c-bf44-4d3e-aa4e-9dbf8a7ffe38/node_modules/.ignored/@discordjs/opus'"
+      code: "EACCES"
+      stack: "Error: EACCES: permission denied, rename '/rbd/pnpm-volume/d9f2464c-bf44-4d3e-aa4e-9dbf8a7ffe38/node_modules/@discordjs/opus' -> '/rbd/pnpm-volume/d9f2464c-bf44-4d3e-aa4e-9dbf8a7ffe38/node_modules/.ignored/@discordjs/opus'"
